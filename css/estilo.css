@@ -1,0 +1,223 @@
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #fdcb6e;
+	font-family: 'Montserrat', sans-serif;
+}
+
+header{
+	width: 99%;
+	height: 54px;
+	background-color: #ffeaa7;
+	padding-left: 1%;
+}
+
+nav{
+	width: 38%;
+	height: 40px;
+
+	float: right;
+}
+
+article{
+	width: 100%;
+	height: 636px;
+	background-color: #7f8c8d;
+}
+
+footer{
+	width: 100%;
+	height: 55px;
+	background-color: #ffeaa7;
+}
+
+#contenedor {
+	width: 90%;
+	max-width: 1200px;
+	height: 700px;
+	background-color: #bdc3c7;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+#logo{
+	width: 136px;
+	height: 50px;
+	float: left;
+}
+
+#imgindex{
+	background-image: url(../images/vacaciones.jpg);
+	background-size: cover;
+}
+
+#imgindex2{
+	background-image: url(../images/rafael.jpg);
+	background-size: cover;
+}
+
+#imgindex3{
+	background-image: url(../images/playa.jpg);
+	background-size: cover;
+}
+
+#imgindex4{
+	background-image: url(../images/agua-clara.jpg);
+	background-size: cover;
+}
+
+#tituloindex{
+	float: left;
+	position: relative;
+	top: 12%;
+	left: 5%;
+	padding: 10px;
+	width: 300px;
+	text-shadow: 3px 3px 5px #000000;
+	font-size: 30pt;
+	color: #f0932b;
+}
+
+#tituloindex2{
+	float: left;
+	position: relative;
+	top: 6%;
+	left: 12%;
+	padding: 10px;
+	width: 60%;
+	text-shadow: 2px 2px 3px #000000;
+	font-size: 20pt;
+	color: #f0932b;
+}
+
+#subtituloindex{
+	float: left;
+	position: relative;
+	top: 50%;
+	left: 5%;
+	padding: 10px;
+	width: 300px;
+	font-size: 20pt;
+	color: #f0932b;
+}
+
+#resumen{
+	float: left;
+	position: relative;
+	top: 30%;
+	left: 7%;
+	padding: 15px;
+	width: 220px;
+	background-color: rgba(246, 229, 141, 0.4);
+}
+
+
+#contacto{
+	float: left;
+	position: relative;
+	top: -5%;
+	left: 5%;
+	width: 300px;
+	font-size: 30pt;
+	color: #f0932b;
+}
+
+#formulario{
+	float: left;
+	position: relative;
+	top: 20%;
+	left: -20%;
+	padding: 15px;
+	width: 300px;
+	background-color: rgba(246, 229, 141, 1);
+}
+
+ .etiqueta {
+ 	color: #272727;
+ }
+
+ .anchoform{
+ 	width: 100%
+ }
+
+.enviar{
+	width: 70%;
+	height: 35px;
+	border: none;
+	color: #E5EFF0;
+	background-color: #f0932b; 
+	font-size: 18px;
+	margin: 4px 2px;
+	float: right;
+}
+
+#rescontacto{
+	float: left;
+	position: relative;
+	top: 17%;
+	left: -19%;
+	padding: 15px;
+	width: 230px;
+	font-size: 16pt;
+}
+
+#menu{
+	padding: 0;
+}
+
+#menu li{
+	display: inline-block;
+	
+}
+
+#menu li a{
+	width: 120px;
+	font-size: 13pt;
+	text-align: center;
+	text-decoration: none;
+	float: right;
+	padding: 5px;
+	color: #000000;
+	background-color: #f0932b;
+}
+
+ #menu li a:hover{
+ 	background-color: #000000;
+ 	color: #f0932b;
+ }
+
+#credito{
+	padding-top: 1px;
+}
+
+#galeria{
+	float: left;
+	position: relative;
+	width: 90%
+	top: 15%;
+	left: 5%;
+}
+
+ #galeria li{
+ 	display: inline-block;
+	padding-top: 2%;
+ }
+
+ #galeria li a{
+ 	width: 150px;
+ }
+
+.anchogaleria{
+	width: 150px;
+}
+
+.inicio{
+	text-decoration: none;
+	color: #272727;
+}
